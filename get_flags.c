@@ -23,10 +23,18 @@ int get_flags(const char *format, int *i)
 				flags |= FLAGS_ARR[j];
 				break;
 			}
+<<<<<<< HEAD
+=======
+
+>>>>>>> e2626ab8c2bde7317c49ffc20cf7edc7ba0177ab
 		if (FLAGS_CH[j] == 0)
 			break;
 	}
 
 	*i = curr_i - 1;
+<<<<<<< HEAD
+=======
+
+>>>>>>> e2626ab8c2bde7317c49ffc20cf7edc7ba0177ab
 	return (flags);
 }
